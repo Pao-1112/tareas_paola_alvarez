@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+*{
+    font-family: 'Comic Neue', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 4rem;
+    color:rgb(0, 0, 0);
+}
+header {
+    background: url(../img/design1_image1.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 400px;
+    display: block;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    position: relative;
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(30, 202, 214);
+}
+.logo {
+    width: 300px;
+    position: relative;
+    left: 530px;
+}
+nav a {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    position:relative;
+    left:1000px;
+    bottom:350px;
+}
+#navegador1 {
+    background-color: rgb(250, 89, 49);
+    color: rgb(255, 255, 255);
+}
+#navegador2y3 {
+    background-color: rgb(235, 35, 201);
+    color: rgb(250, 250, 250);
+}
+.secciones {
+    width: 770px;
+    padding: 10px;
+    position: relative;
+    bottom:20px;
+    left: 100px;
+}
+section {
+    margin: 70px;
+}
+
+#imagen1{
+    border-top: 5px double rgb(19, 19, 202);
+    border-right: 5px dotted  rgb(19, 19, 202);   
+    border-bottom: 5px dashed  rgb(19, 19, 202);
+    border-left: 5px solid  rgb(19, 19, 202);
+    position: relative;
+    left: 450px ;
+    top: 10px;
+ }
+ #imagen2{
+    border-top: 5px double rgb(238, 34, 136);
+    border-right: 5px dotted  rgb(238, 34, 136);   
+    border-bottom: 5px dashed  rgb(238, 34, 136);
+    border-left: 5px solid  rgb(238, 34, 136);
+    position: relative;
+    left: 450px ;
+    top: 10px;
+ }
+ #imagen3{
+    border-top: 5px double rgb(126, 238, 34);
+    border-right: 5px dotted  rgb(126, 238, 34);   
+    border-bottom: 5px dashed  rgb(126, 238, 34);
+    border-left: 5px solid  rgb(126, 238, 34);
+    position: relative;
+    left: 450px ;
+    top: 10px;
+}
