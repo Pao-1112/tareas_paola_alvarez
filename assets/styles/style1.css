@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Comic+Neue:wght@700&family=Merriweather:wght@300&family=Poppins&family=Roboto:wght@700&family=Shrikhand&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    border: 7px ridge rgb(248, 225, 46);
+    font-size: 3rem;
+    background-color: rgb(30, 202, 214);
+    color:rgb(248, 225, 46);
+    text-shadow: -2px -2px 1px rgb(198, 72, 50);
+}
+.headboard {
+    background: url(../img/design1_image2.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 400px;
+    background-color: rgb(30, 202, 214);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.logo {
+    width: 150px;
+    position: fixed;
+    bottom: 210px;
+    right: 110px;
+}
+h2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color:rgb(248, 225, 46);
+    text-shadow: -2px -2px 1px rgb(198, 72, 50);
+    border: 7px ridge rgb(248, 225, 46);;
+    background-color: rgb(30, 202, 214);
+}
+h3 {
+    color:rgb(248, 225, 46);
+    text-shadow: -2px -2px 1px rgb(198, 72, 50);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+nav a {
+    text-decoration: none;
+    border: 2px solid rgb(189, 176, 176);
+    border-radius: 10%;
+    padding: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+       
+}
+.browser1 {
+    border:inset;
+    background-color: rgb(248, 225, 46);
+    color: rgb(0, 0, 0);
+    border-color: rgb(128, 128, 128);
+    box-shadow: 0 5px rgb(0, 0, 0);
+}
+.browsers2y3 {
+    border: outset;
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+    border-color: rgb(128, 128, 128);
+    box-shadow: 0 5px rgb(248, 225, 46);
+}
+body {
+    background-color: rgb(5, 5, 5)
+}
+#title_game {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: 180px;
+}
+.title_rules {
+text-align: center;
+}
+#underlined_sentence_game {
+    margin-left: 200px;
+    color:rgb(255, 255, 255);
+    text-decoration:underline rgb(255, 0, 0);
+}
+.container_table{
+    border: 7px groove rgb(248, 225, 46);
+    padding: 50px;
+    width: 50%;
+    margin: 60px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+table {
+    background-color: rgb(253, 253, 253);
+    text-align: left;
+}
+th, td {
+    padding: 20px;
+}
+thead {
+    background-color: rgb(30, 202, 214);
+}
+tr:hover td {
+    background-color: rgb(248, 225, 46);
+}
+.sections {
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin: 60px 300px;
+    padding: 50px;
+    border: 7px groove rgb(248, 225, 46);
+    border-radius: 10%;
+    background-color: rgb(30, 202, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section {
+    margin: 30px 50px;
+    padding: 6px;
+    background-color: rgb(30, 202, 214);
+}
+.list_game {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.list_rules_sin_icono{
+    list-style-type: none; 
+}
+ul {
+    list-style-position: outside;
+    list-style-type: circle;
+}
+#picture1{
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px dotted rgb(198, 72, 50);
+ }
+ #picture2 {
+    width: 40%;
+    padding: 10px;
+    margin: 40px;
+    border-top: 5px solid rgb(198, 72, 50);
+    border-right: 5px dotted rgb(198, 72, 50);   
+    border-bottom: 5px solid rgb(198, 72, 50);
+    border-left: 5px dotted rgb(198, 72, 50);
+    position: relative;
+    left:330px; 
+}
+ #picture3{
+    width: 550px;
+    margin: 40px;
+    border: 5px double rgb(198, 72, 50);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
