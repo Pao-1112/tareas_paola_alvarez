@@ -24,12 +24,6 @@ h1 {
     justify-content: flex-end;
     padding: 10px;
 }
-.logo {
-    width: 150px;
-    position: fixed;
-    bottom: 210px;
-    right: 110px;
-}
 h2 {
     padding: 10px;
     display: flex;
@@ -74,12 +68,25 @@ nav a {
 body {
     background-color: rgb(5, 5, 5)
 }
-#title_game {
+.box_logo {
+    margin: 5px 25px;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 160px;
+    padding: 13px;
+}
+.container_logo_game {
+    display: flex;
+    justify-content: flex-start;
+}
+#subtitle_game {
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 30px;
     margin-left: 180px;
 }
-.title_rules {
+.subtitle_rules {
 text-align: center;
 }
 #underlined_sentence_game {
@@ -87,11 +94,11 @@ text-align: center;
     color:rgb(255, 255, 255);
     text-decoration:underline rgb(255, 0, 0);
 }
-.container_table{
+.container_table {
     border: 7px groove rgb(248, 225, 46);
-    padding: 50px;
+    padding: 60px;
     width: 70%;
-    margin: 60px 100px;
+    margin: 20px 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -107,12 +114,12 @@ thead {
     background-color: rgb(30, 202, 214);
 }
 tr:hover td {
-    background-color: rgb(248, 225, 46);
+    background-color: rgb(128, 128, 128);
 }
-.sections {
+.sections_and_img {
     color: rgb(0, 0, 0);
-    width: 50%;
-    margin: 60px 300px;
+    width: 60%;
+    margin: 70px 240px;
     padding: 50px;
     border: 7px groove rgb(248, 225, 46);
     border-radius: 10%;
@@ -129,7 +136,7 @@ section {
 .sections_game {
     color: rgb(0, 0, 0);
     width: 50%;
-    margin: 60px 220px;
+    margin: 60px 330px;
     padding: 50px;
     border: 7px groove rgb(248, 225, 46);
     border-radius: 10%;
@@ -181,10 +188,23 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+.conteiner_main_registration {
+    background: url(../img/ice-added-img.jpg);
+    
+}
+.logo_and_img_registration{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-between; 
+}
+.added_img_form {
+    height: 150px;
+    padding: 10px;
+}
 .conteiner_form {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     padding: 50px;
 }
 form {
@@ -198,8 +218,18 @@ form {
 fieldset {
     padding: 12px;
 }
+.name {
+    width: 220px;
+}
 .street {
-    width: 400px;
+    width: 500px;
+}
+.city_and_code {
+    display: flex;
+    justify-content: space-around;
+}
+.city_and_code input{
+    width: 200px;
 }
 .birth_date_and_gender {
     display: flex;
@@ -208,12 +238,15 @@ fieldset {
 }
 .grade {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+.grade label {
+    margin-right: 20px;
 }
 .closest_school {
     display: flex;
     flex-direction: row;  
-    justify-content: space-around;
+    justify-content: center;
 }
 .position {
     display: flex;
@@ -226,7 +259,6 @@ fieldset {
     justify-content: space-around;
 }
 .terms_and_conditions {
-    list-style-type: none;
     padding: 20px;
 }
 .condition {
@@ -234,4 +266,10 @@ fieldset {
 }
 .buttons {
     width: 200px;
+}
+input[type="checkbox"]:checked + label {
+  color: blue;
+}
+input[type="radio"]:checked + label {
+    color: blue;
 }
